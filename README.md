@@ -1,5 +1,7 @@
-qLabel
-======
+qlabel-rails
+============
+
+A Rails wrapper for the jQuery plugin qLabel by Denny Vrandecic (Google).
 
 qLabel is a JavaScript library that helps you create multilingual websites.
 
