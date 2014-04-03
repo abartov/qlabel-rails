@@ -1,0 +1,3 @@
+[submodule "jQuery-qLabel"]
+  path = jQuery-qLabel
+  url = git://github.com/googleknowledge/qlabel

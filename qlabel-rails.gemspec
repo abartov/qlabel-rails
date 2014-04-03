@@ -13,6 +13,8 @@ Gem::Specification.new do |gem|
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.name          = "qlabel-rails"
-  gem.require_paths = ["lib"]
-  gem.version       = Jquery::QLabel::Rails::VERSION
+  gem.require_paths = ["lib", "vendor"]
+  gem.version       = QLabel::Rails::VERSION
+  gem.add_dependency 'jquery-rails'
+  gem.add_dependency "railties"
 end
